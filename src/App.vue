@@ -1,19 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <y-button>sss</y-button>
+    <y-button icon="settings"
+              @click="test"
+              icon-position="left">
+      按钮
+    </y-button>
+    <y-button icon="loading"
+              icon-position="right">
+      按钮
+    </y-button>
+    <y-button icon="settings"
+              icon-position="left">
+      按钮
+    </y-button>
+    <y-button icon="settings"></y-button>
+    <!--    <y-button icon="settings" icon-position="up">-->
+    <!--        按钮-->
+    <!--    </y-button>-->
+    <y-icon name="download"></y-icon>
+    <y-button-group>
+      <y-button icon="left">上一页</y-button>
+      <y-button>更多</y-button>
+      <y-button icon="right"
+                icon-position="right">下一页
+      </y-button>
+    </y-button-group>
+    <y-button>确认</y-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld,
-  }
 }
 </script>
 
