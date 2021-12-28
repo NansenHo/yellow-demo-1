@@ -8147,7 +8147,7 @@ vue-eslint-parser@^7.0.0:
     lodash "^4.17.21"
     semver "^6.3.0"
 
-vue-hot-reload-api@^2.3.0:
+vue-hot-reload-api@^2.3.0, vue-hot-reload-api@^2.3.4:
   version "2.3.4"
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
@@ -8193,7 +8193,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.6.11:
+vue@^2.6.11, vue@^2.6.14:
   version "2.6.14"
   resolved "https://registry.npmmirror.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
@@ -8532,6 +8532,14 @@ yargs@^16.0.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yellow@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/yellow/-/yellow-0.0.4.tgz#eeb38b0b1e89bd7f59734902e494f3c9b5da94e9"
+  integrity sha512-CDF9z/RKTbV/SXpr5KNMap4kJ4635j7BZjIe378vMhCBz/0ZF1ZtgkCVT4QC5Kc7ZVm2Z04vnI+LK21dXj82ag==
+  dependencies:
+    vue "^2.6.14"
+    vue-hot-reload-api "^2.3.4"
 
 yorkie@^2.0.0:
   version "2.0.0"

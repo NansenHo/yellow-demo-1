@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+// eslint-disable-next-line no-unused-vars
+import {Button, Icon, ButtonGroup} from 'yellow'
 
 Vue.config.productionTip = false
 
