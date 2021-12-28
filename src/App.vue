@@ -26,4 +26,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+:root {
+  --button-color: #6e6d7a;
+  --button-height: 32px;
+  --font-size: 14px;
+  --button-bg: white;
+  --button-active-bg: #eee;
+  --border-radius: 8px;
+  --border-color: #E7E7E9;
+  --border-color-hover: #666;
+  }
 </style>
